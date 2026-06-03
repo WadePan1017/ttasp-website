@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>帮助中心 - 天天ASP</title>
+  <meta name="keywords" content="asp帮助,产品使用帮助,技术支持">
+  <meta name="description" content="天天ASP帮助中心，为您提供产品使用指南、常见问题解答和技术支持。">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/news.css">
+</head>
+<body>
+
+  <!-- 顶部导航 -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="天天ASP">
+      </a>
+      <nav class="nav" id="nav">
+        <a href="index.html" class="nav-link">所有产品</a>
+        <a href="development.html" class="nav-link">开发服务</a>
+        <a href="news.html" class="nav-link">新闻动态</a>
+        <a href="help.html" class="nav-link active">帮助中心</a>
+        <a href="about.html" class="nav-link">关于我们</a>
+        <a href="contact.html" class="nav-link">联系我们</a>
+      </nav>
+      <div class="header-right">
+        <span class="phone">
+          <img src="images/tel.png" alt="电话" class="phone-icon">
+          134-3622-2876
+        </span>
+        <button class="menu-toggle" id="menuToggle" aria-label="菜单">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner主图 -->
+  <section class="banner">
+    <img src="images/top.png" alt="天天ASP" class="banner-img">
+  </section>
+
+  <!-- 帮助文章列表 -->
+  <section class="news-list">
+    <div class="container">
+
+      <!-- 分类 -->
+      <div class="news-tabs">
+        <button class="news-tab active" data-filter="all">全部</button>
+        <button class="news-tab" data-filter="food">订餐系统</button>
+        <button class="news-tab" data-filter="order">微订单系统</button>
+      </div>
+
+      <div class="news-grid">
+
+        <a href="#" class="news-card" data-category="food">
+          <div class="news-card-date">
+            <span class="day">1</span>
+            <span class="month">使用指南</span>
+          </div>
+          <div class="news-card-content">
+            <h3>天天在线订餐系统 - 快速入门</h3>
+            <p>本指南将帮助您快速了解天天在线订餐系统的基本功能，包括菜品管理、订单接收、会员管理等核心模块的使用方法。</p>
+            <span class="news-more">阅读全文 →</span>
+          </div>
+        </a>
+
+        <a href="#" class="news-card" data-category="food">
+          <div class="news-card-date">
+            <span class="day">2</span>
+            <span class="month">使用指南</span>
+          </div>
+          <div class="news-card-content">
+            <h3>如何配置邮件和微信通知</h3>
+            <p>详细讲解如何设置订单实时通知功能，包括邮件通知的SMTP配置、微信通知的对接步骤，以及通知开关的使用说明。</p>
+            <span class="news-more">阅读全文 →</span>
+          </div>
+        </a>
+
+        <a href="#" class="news-card" data-category="order">
+          <div class="news-card-date">
+            <span class="day">3</span>
+            <span class="month">常见问题</span>
+          </div>
+          <div class="news-card-content">
+            <h3>微订单系统 - 常见问题解答</h3>
+            <p>汇总了用户在使用天天微订单系统过程中遇到的常见问题，包括订单状态处理、商品分类管理、后台数据导出等。</p>
+            <span class="news-more">阅读全文 →</span>
+          </div>
+        </a>
+
+        <a href="#" class="news-card" data-category="food">
+          <div class="news-card-date">
+            <span class="day">4</span>
+            <span class="month">常见问题</span>
+          </div>
+          <div class="news-card-content">
+            <h3>订餐系统支付配置说明</h3>
+            <p>介绍如何在天天在线订餐系统中对接微信支付和支付宝，包括商户号申请、密钥配置、回调地址设置等完整流程。</p>
+            <span class="news-more">阅读全文 →</span>
+          </div>
+        </a>
+
+        <a href="#" class="news-card" data-category="order">
+          <div class="news-card-date">
+            <span class="day">5</span>
+            <span class="month">使用指南</span>
+          </div>
+          <div class="news-card-content">
+            <h3>微订单系统手机端操作指南</h3>
+            <p>讲解如何在手机端接收和处理订单，包括微信同步接收、订单状态更新、客户信息查看等移动端核心功能。</p>
+            <span class="news-more">阅读全文 →</span>
+          </div>
+        </a>
+
+        <a href="#" class="news-card" data-category="food">
+          <div class="news-card-date">
+            <span class="day">6</span>
+            <span class="month">使用指南</span>
+          </div>
+          <div class="news-card-content">
+            <h3>菜品和分类管理教程</h3>
+            <p>手把手教您如何添加、编辑和删除菜品，设置菜品分类，管理菜品图片和价格，以及菜品上下架操作。</p>
+            <span class="news-more">阅读全文 →</span>
+          </div>
+        </a>
+
+      </div>
+
+      <!-- 分页 -->
+      <div class="pagination">
+        <span class="page-current">1</span>
+        <a href="#" class="page-link">2</a>
+        <a href="#" class="page-link">下一页 →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>Copyright &copy; 2013-2026 ttasp.com. All rights reserved.</p>
+      <p>
+        <a href="https://www.beian.gov.cn/" target="_blank" rel="nofollow">渝ICP备14001940号-1</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

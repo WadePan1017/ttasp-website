@@ -1,0 +1,84 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "天天ASP" [ref=e4] [cursor=pointer]:
+        - /url: index.html
+        - img "天天ASP" [ref=e5]
+      - navigation [ref=e6]:
+        - link "所有产品" [ref=e7] [cursor=pointer]:
+          - /url: index.html
+        - link "开发服务" [ref=e8] [cursor=pointer]:
+          - /url: development.html
+        - link "新闻动态" [ref=e9] [cursor=pointer]:
+          - /url: news.html
+        - link "关于我们" [ref=e10] [cursor=pointer]:
+          - /url: about.html
+        - link "联系我们" [ref=e11] [cursor=pointer]:
+          - /url: contact.html
+      - generic [ref=e13]:
+        - img "电话" [ref=e14]
+        - text: 134-3622-2876
+  - img "天天ASP" [ref=e16]
+  - generic [ref=e19]:
+    - generic [ref=e20]:
+      - heading "联系方式" [level=2] [ref=e21]
+      - paragraph [ref=e22]: 如果您有任何疑问或需求，欢迎通过以下方式联系我们
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: 📞
+          - generic [ref=e26]:
+            - heading "电话咨询" [level=3] [ref=e27]
+            - paragraph [ref=e28]: 134-3622-2876
+            - text: 工作时间：9:00 - 18:00
+        - generic [ref=e29]:
+          - generic [ref=e30]: 💬
+          - generic [ref=e31]:
+            - heading "微信咨询" [level=3] [ref=e32]
+            - paragraph [ref=e33]: 添加微信获取更多信息
+            - text: 微信号：ttasp
+        - generic [ref=e34]:
+          - generic [ref=e35]: 📧
+          - generic [ref=e36]:
+            - heading "邮件联系" [level=3] [ref=e37]
+            - paragraph [ref=e38]: support@ttasp.com
+            - text: 24小时内回复
+        - generic [ref=e39]:
+          - generic [ref=e40]: 🌐
+          - generic [ref=e41]:
+            - heading "在线留言" [level=3] [ref=e42]
+            - paragraph [ref=e43]: 填写右侧表单
+            - text: 我们会尽快联系您
+    - generic [ref=e44]:
+      - heading "在线留言" [level=2] [ref=e45]
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - generic [ref=e48]: 您的姓名 *
+          - textbox "您的姓名 *" [ref=e49]:
+            - /placeholder: 请输入您的姓名
+        - generic [ref=e50]:
+          - generic [ref=e51]: 联系电话 *
+          - textbox "联系电话 *" [ref=e52]:
+            - /placeholder: 请输入您的联系电话
+        - generic [ref=e53]:
+          - generic [ref=e54]: 电子邮箱
+          - textbox "电子邮箱" [ref=e55]:
+            - /placeholder: 请输入您的邮箱
+        - generic [ref=e56]:
+          - generic [ref=e57]: 咨询类型
+          - combobox "咨询类型" [ref=e58]:
+            - option "请选择" [selected]
+            - option "产品咨询"
+            - option "定制开发"
+            - option "技术支持"
+            - option "其他"
+        - generic [ref=e59]:
+          - generic [ref=e60]: 留言内容 *
+          - textbox "留言内容 *" [ref=e61]:
+            - /placeholder: 请描述您的需求或问题
+        - button "提交留言" [ref=e62] [cursor=pointer]
+  - contentinfo [ref=e63]:
+    - generic [ref=e64]:
+      - paragraph [ref=e65]: Copyright © 2013-2024 ttasp.com. All rights reserved.
+      - paragraph [ref=e66]:
+        - link "渝ICP备14001940号-1" [ref=e67] [cursor=pointer]:
+          - /url: https://www.beian.gov.cn/

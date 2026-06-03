@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>联系我们 - 天天ASP</title>
+  <meta name="keywords" content="联系我们,天天ASP,咨询">
+  <meta name="description" content="联系天天ASP，获取产品咨询、技术支持和合作洽谈。">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+
+  <!-- 顶部导航 -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="天天ASP">
+      </a>
+      <nav class="nav" id="nav">
+        <a href="index.html" class="nav-link">所有产品</a>
+        <a href="development.html" class="nav-link">开发服务</a>
+        <a href="news.html" class="nav-link">新闻动态</a>
+        <a href="help.html" class="nav-link">帮助中心</a>
+                <a href="about.html" class="nav-link">关于我们</a>
+        <a href="contact.html" class="nav-link active">联系我们</a>
+      </nav>
+      <div class="header-right">
+        <span class="phone">
+          <img src="images/tel.png" alt="电话" class="phone-icon">
+          134-3622-2876
+        </span>
+        <button class="menu-toggle" id="menuToggle" aria-label="菜单">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner主图 -->
+  <section class="banner">
+    <img src="images/top.png" alt="天天ASP" class="banner-img">
+  </section>
+
+  <!-- 联系内容 -->
+  <section class="contact-section">
+    <div class="container">
+
+      <div class="contact-grid">
+
+        <!-- 联系方式 -->
+        <div class="contact-info">
+          <h2>联系方式</h2>
+          <p class="contact-desc">如果您有任何疑问或需求，欢迎通过以下方式联系我们</p>
+
+          <div class="contact-list">
+            <div class="contact-item">
+              <span class="contact-icon">📞</span>
+              <div>
+                <h3>电话咨询</h3>
+                <p>134-3622-2876</p>
+                <span class="contact-time">工作时间：9:00 - 18:00</span>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-icon">💬</span>
+              <div>
+                <h3>微信咨询</h3>
+                <p>添加微信获取更多信息</p>
+                <span class="contact-time">微信号：ttasp</span>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-icon">📧</span>
+              <div>
+                <h3>邮件联系</h3>
+                <p>support@ttasp.com</p>
+                <span class="contact-time">24小时内回复</span>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-icon">🌐</span>
+              <div>
+                <h3>在线留言</h3>
+                <p>填写右侧表单</p>
+                <span class="contact-time">我们会尽快联系您</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 留言表单 -->
+        <div class="contact-form-wrap">
+          <h2>在线留言</h2>
+          <form class="contact-form" action="?act=add" method="post">
+            <div class="form-group">
+              <label for="name">您的姓名 *</label>
+              <input type="text" id="name" name="name" placeholder="请输入您的姓名" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">联系电话 *</label>
+              <input type="tel" id="phone" name="phone" placeholder="请输入您的联系电话" required>
+            </div>
+            <div class="form-group">
+              <label for="email">电子邮箱</label>
+              <input type="email" id="email" name="email" placeholder="请输入您的邮箱">
+            </div>
+            <div class="form-group">
+              <label for="subject">咨询类型</label>
+              <select id="subject" name="subject">
+                <option value="">请选择</option>
+                <option value="product">产品咨询</option>
+                <option value="custom">定制开发</option>
+                <option value="tech">技术支持</option>
+                <option value="other">其他</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">留言内容 *</label>
+              <textarea id="message" name="message" rows="5" placeholder="请描述您的需求或问题" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">提交留言</button>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>Copyright &copy; 2013-2026 ttasp.com. All rights reserved.</p>
+      <p>
+        <a href="https://www.beian.gov.cn/" target="_blank" rel="nofollow">渝ICP备14001940号-1</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,75 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "天天ASP" [ref=e4] [cursor=pointer]:
+        - /url: index.html
+        - img "天天ASP" [ref=e5]
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "电话" [ref=e8]
+          - text: 134-3622-2876
+        - button "菜单" [ref=e9] [cursor=pointer]
+  - img "天天ASP" [ref=e14]
+  - generic [ref=e16]:
+    - navigation [ref=e17]:
+      - link "首页" [ref=e18] [cursor=pointer]:
+        - /url: index.html
+      - text: /
+      - link "所有产品" [ref=e19] [cursor=pointer]:
+        - /url: index.html
+      - text: / 天天在线订餐系统
+    - generic [ref=e20]:
+      - img "天天在线订餐系统" [ref=e22]
+      - generic [ref=e23]:
+        - heading "天天在线订餐系统" [level=1] [ref=e24]
+        - paragraph [ref=e25]: 点菜零抽成 · 实时通知 · 成本降低30%
+        - paragraph [ref=e26]: 完美的在线点餐解决方案，帮助餐馆摆脱第三方外卖平台的高额抽成。 支持实时订单通知，邮件/微信同步推送，让您的外卖生意更轻松。
+        - generic [ref=e27]:
+          - link "立即咨询" [ref=e28] [cursor=pointer]:
+            - /url: contact.html
+          - link "电话咨询" [ref=e29] [cursor=pointer]:
+            - /url: tel:13436222876
+    - generic [ref=e30]:
+      - heading "产品特点" [level=2] [ref=e31]
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e34]: 💰
+          - heading "零抽成" [level=3] [ref=e35]
+          - paragraph [ref=e36]: 网上点菜平台没有任何抽成，完美解决第三方外卖平台抽成严重的弊端，餐馆外卖成本降低30%。
+        - generic [ref=e37]:
+          - generic [ref=e38]: 🔔
+          - heading "实时通知" [level=3] [ref=e39]
+          - paragraph [ref=e40]: 网上订单实时邮件/微信通知，无需人工手动操作，点单出错率降低99.9%。
+        - generic [ref=e41]:
+          - generic [ref=e42]: 📱
+          - heading "多端同步" [level=3] [ref=e43]
+          - paragraph [ref=e44]: 手机、电脑、微信多端同步接收订单信息，随时随地掌握店铺动态。
+        - generic [ref=e45]:
+          - generic [ref=e46]: ⚡
+          - heading "简单易用" [level=3] [ref=e47]
+          - paragraph [ref=e48]: 界面简洁直观，无需培训即可上手。顾客点餐流程顺畅，提升复购率。
+    - generic [ref=e49]:
+      - heading "适用场景" [level=2] [ref=e50]
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - generic [ref=e53]: 餐饮外卖
+          - paragraph [ref=e54]: 餐馆、小吃店、奶茶店等餐饮商户，摆脱平台抽成，自建外卖渠道。
+        - generic [ref=e55]:
+          - generic [ref=e56]: 企业订餐
+          - paragraph [ref=e57]: 公司内部订餐、团餐预订，统一管理订单和配送。
+        - generic [ref=e58]:
+          - generic [ref=e59]: 校园订餐
+          - paragraph [ref=e60]: 学校食堂、校园外卖，支持预约点餐和批量订单处理。
+    - generic [ref=e61]:
+      - heading "想要了解更多？" [level=2] [ref=e62]
+      - paragraph [ref=e63]: 联系我们，获取详细的产品演示和报价方案
+      - generic [ref=e64]:
+        - generic [ref=e65]: 📞 134-3622-2876
+        - link "在线咨询" [ref=e66] [cursor=pointer]:
+          - /url: contact.html
+  - contentinfo [ref=e67]:
+    - generic [ref=e68]:
+      - paragraph [ref=e69]: Copyright © 2013-2024 ttasp.com. All rights reserved.
+      - paragraph [ref=e70]:
+        - link "渝ICP备14001940号-1" [ref=e71] [cursor=pointer]:
+          - /url: https://www.beian.gov.cn/
