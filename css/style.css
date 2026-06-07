@@ -131,12 +131,26 @@ img {
 /* Banner */
 .banner {
   background: var(--color-white);
+  position: relative;
+}
+
+.banner-inner {
+  position: relative;
+  line-height: 0;
 }
 
 .banner-img {
   width: 100%;
   max-height: 400px;
   object-fit: cover;
+}
+
+.banner-logo {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  width: 80px;
+  z-index: 2;
 }
 
 /* Notice */
